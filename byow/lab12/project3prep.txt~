@@ -1,0 +1,31 @@
+Q: Can you think of an analogy between the process of tesselating hexagons and randomly generating a world using rooms and hallways? 
+What is the hexagon and what is the tesselation on the Project 3 side?
+
+A: Of course. There aren't even that many differences. A world is some sort of shape we need to design, very similar to creating the hexes. 
+
+-----
+Q: If you were to start working on world generation, what kind of method would you think of writing first? 
+Think back to the lab and the process used to eventually get to tesselating hexagons.
+
+A: Probably start with locations and offsets. Only then start thinking of sizes and how they fit in the world, and then start writing code to create objects.
+
+-----
+Q: What distinguishes a hallway from a room? How are they similar?
+
+A: A room is wider, and has exit only from one side (and not the other).
+
+-----
+Q: For tesselating hexagons, one of the hardest parts is figuring out where to place each hexagon/how to easily place hexagons on screen in an algorithmic way. 
+After looking at your own implemention, consider the implementation provided near the end of the lab. 
+How did your implementation differ from the given one? What lessons can be learned from it?
+
+A: I thought about the offsets last, which puts me in trouble for trying to involve the hexes after they are created. I definitely learned to think of the offsets first. 
+
+-----
+Q: Consider an algorithm for placing rooms and hallways on your map. 
+Ideally, consider many algorithms and think about what makes some easier or harder to implement. Try and bring those ideas together into a single simple algorithm which accomplishes the task. 
+In general, algorithms with as few edge cases as possible are better algorithms.
+
+A: A room and hallways would have to have a location and size, and they must fit into the screen. So an initial test would be whether or not they can fit, and if they can, where exactly in the map. Then, the rooms should be constructed and attached to the original map.
+
+HI MICHAEL PERRY
